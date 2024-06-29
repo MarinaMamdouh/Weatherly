@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+enum Constants {
+  enum Keys {
+    static let weatherAPIKey = ""
+  }
+}

@@ -11,6 +11,10 @@
 		96EE394A2C309E33008FAA7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EE39492C309E33008FAA7E /* ContentView.swift */; };
 		96EE394C2C309E35008FAA7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EE394B2C309E35008FAA7E /* Assets.xcassets */; };
 		96EE394F2C309E35008FAA7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EE394E2C309E35008FAA7E /* Preview Assets.xcassets */; };
+		96EE39572C309E64008FAA7E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EE39562C309E64008FAA7E /* Location.swift */; };
+		96EE39592C30A013008FAA7E /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EE39582C30A013008FAA7E /* WeatherResponse.swift */; };
+		96EE395C2C30A1FC008FAA7E /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EE395B2C30A1FC008FAA7E /* APIEndpoint.swift */; };
+		96EE395F2C30A32A008FAA7E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EE395E2C30A32A008FAA7E /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		96EE39492C309E33008FAA7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96EE394B2C309E35008FAA7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96EE394E2C309E35008FAA7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96EE39562C309E64008FAA7E /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		96EE39582C30A013008FAA7E /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		96EE395B2C30A1FC008FAA7E /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		96EE395E2C30A32A008FAA7E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		96EE39462C309E33008FAA7E /* Weatherly */ = {
 			isa = PBXGroup;
 			children = (
+				96EE395D2C30A31C008FAA7E /* Utilities */,
+				96EE395A2C30A1EC008FAA7E /* Clients */,
+				96EE39552C309E54008FAA7E /* Models */,
 				96EE39472C309E33008FAA7E /* WeatherlyApp.swift */,
 				96EE39492C309E33008FAA7E /* ContentView.swift */,
 				96EE394B2C309E35008FAA7E /* Assets.xcassets */,
@@ -65,6 +76,31 @@
 				96EE394E2C309E35008FAA7E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96EE39552C309E54008FAA7E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				96EE39562C309E64008FAA7E /* Location.swift */,
+				96EE39582C30A013008FAA7E /* WeatherResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		96EE395A2C30A1EC008FAA7E /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				96EE395B2C30A1FC008FAA7E /* APIEndpoint.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		96EE395D2C30A31C008FAA7E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				96EE395E2C30A32A008FAA7E /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				96EE394A2C309E33008FAA7E /* ContentView.swift in Sources */,
+				96EE39572C309E64008FAA7E /* Location.swift in Sources */,
 				96EE39482C309E33008FAA7E /* WeatherlyApp.swift in Sources */,
+				96EE39592C30A013008FAA7E /* WeatherResponse.swift in Sources */,
+				96EE395C2C30A1FC008FAA7E /* APIEndpoint.swift in Sources */,
+				96EE395F2C30A32A008FAA7E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

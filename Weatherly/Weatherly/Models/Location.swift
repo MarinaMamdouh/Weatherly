@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+
+struct Location: Codable {
+  let name: String?
+  let latitude: Double?
+  let longtitude: Double?
+
+  enum CodingKeys: String, CodingKey {
+    case name = "name"
+    case latitude = "lat"
+    case longtitude = "long"
+  }
+}
