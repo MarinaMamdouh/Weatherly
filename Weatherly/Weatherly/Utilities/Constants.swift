@@ -8,7 +8,8 @@
 import Foundation
 
 enum Constants {
-  static let baseURL = "https://openweathermap.org"
+  static let baseURL = "https://api.openweathermap.org"
+  static let unit = "metric"
   enum Keys {
     static let weatherAPIKey = ""
   }

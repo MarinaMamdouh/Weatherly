@@ -14,7 +14,7 @@ enum GetWeatherAPIEndpoint: APIEndpoint {
   internal var path: String {
     switch self {
     case .weatherBy(let latitude, let longtitude):
-      return "/data/2.5/weather?lat=\(latitude)&lon=\(longtitude)&appid=\(Constants.Keys.weatherAPIKey)"
+      return "/data/2.5/weather?lat=\(latitude)&lon=\(longtitude)&units=\(Constants.unit)&appid=\(Constants.Keys.weatherAPIKey)"
     }
   }
 }

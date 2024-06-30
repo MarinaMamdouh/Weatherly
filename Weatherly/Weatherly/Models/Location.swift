@@ -15,6 +15,6 @@ struct Location: Codable {
   enum CodingKeys: String, CodingKey {
     case name = "name"
     case latitude = "lat"
-    case longtitude = "long"
+    case longtitude = "lon"
   }
 }

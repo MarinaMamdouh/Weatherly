@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96857B372C31A6E80027A063 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96857B362C31A6E80027A063 /* Double+Extension.swift */; };
 		96EE39482C309E33008FAA7E /* WeatherlyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EE39472C309E33008FAA7E /* WeatherlyApp.swift */; };
 		96EE394A2C309E33008FAA7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EE39492C309E33008FAA7E /* ContentView.swift */; };
 		96EE394C2C309E35008FAA7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EE394B2C309E35008FAA7E /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96857B362C31A6E80027A063 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		96EE39442C309E33008FAA7E /* Weatherly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weatherly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EE39472C309E33008FAA7E /* WeatherlyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherlyApp.swift; sourceTree = "<group>"; };
 		96EE39492C309E33008FAA7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96857B352C31A6CD0027A063 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				96857B362C31A6E80027A063 /* Double+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		96EE393B2C309E33008FAA7E = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +81,7 @@
 		96EE39462C309E33008FAA7E /* Weatherly */ = {
 			isa = PBXGroup;
 			children = (
+				96857B352C31A6CD0027A063 /* Extensions */,
 				96EE395D2C30A31C008FAA7E /* Utilities */,
 				96EE39622C30A6A0008FAA7E /* NetworkLayer */,
 				96EE395A2C30A1EC008FAA7E /* Clients */,
@@ -226,6 +237,7 @@
 				96EE39702C30AD1B008FAA7E /* GetWeatherClient.swift in Sources */,
 				96EE395F2C30A32A008FAA7E /* Constants.swift in Sources */,
 				96EE39612C30A543008FAA7E /* GetLocationClient.swift in Sources */,
+				96857B372C31A6E80027A063 /* Double+Extension.swift in Sources */,
 				96EE39662C30A7A5008FAA7E /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
